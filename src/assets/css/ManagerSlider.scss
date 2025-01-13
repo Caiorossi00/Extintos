@@ -1,0 +1,51 @@
+.manager-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+
+  button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ddd;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .manager-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .manager-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+  }
+}
