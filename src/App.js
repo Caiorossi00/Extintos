@@ -1,15 +1,19 @@
 import React from "react";
-import ResultsDisplay from "./components/ResultsDisplay";
-import ManagerSlider from "./components/ManagerSlider";
-import LeagueTable from "./components/LeagueTable";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TeamDetails from "./Routes/TeamDetails/TeamDetails";
+import ManagersRoute from "./Routes/Managers/ManagersRoute";
+import Home from "./Routes/Home/Home";
 
 export default function App() {
   return (
-    <main className="main-container">
-      <h1 className="main-title">Soccer League Dashboard</h1>
-      <LeagueTable />
-      <ResultsDisplay />
-      <ManagerSlider />
-    </main>
+    <Router>
+      <main className="main-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/managers" element={<ManagersRoute />} />
+          <Route path="/team/:id" element={<TeamDetails />} />
+        </Routes>
+      </main>
+    </Router>
   );
 }

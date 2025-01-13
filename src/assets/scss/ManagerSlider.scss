@@ -3,9 +3,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  background-color: black;
-  color: white;
 
   button {
     background-color: #f0f0f0;
@@ -30,22 +27,11 @@
     text-align: center;
 
     .manager-image {
-      width: 150px;
-      height: 150px;
+      width: 300px;
+      height: 400px;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 8px;
       margin-bottom: 10px;
-    }
-
-    h3 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin: 10px 0;
-    }
-
-    p {
-      font-size: 1rem;
-      color: #555;
     }
   }
 }
