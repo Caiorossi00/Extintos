@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import teams from "../../assets/data/teams.js";
-import "../../assets/scss/Manager Slider.scss";
+import "../../assets/scss/ManagerSlider.scss";
 
 export default function ManagerSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
