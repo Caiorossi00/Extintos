@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import NossosTorneios from "./NossosTorneios";
+import Feedback from "./Feedback";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Stats />
       <NossosTorneios />
+      <Feedback />
     </>
   );
 };
