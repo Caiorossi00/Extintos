@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Stats from "./Stats";
 import NossosTorneios from "./NossosTorneios";
 import Feedback from "./Feedback";
+import FinalCTA from "./FinalCTA";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Stats />
       <NossosTorneios />
       <Feedback />
+      <FinalCTA />
     </>
   );
 };

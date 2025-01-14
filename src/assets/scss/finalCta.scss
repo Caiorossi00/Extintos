@@ -1,0 +1,52 @@
+#container-finalCTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30vh;
+  margin-top: 20vh;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+
+    .cta-primary,
+    .cta-secondary {
+      padding: 0.8rem 1.5rem;
+      font-size: 0.8rem;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    .cta-primary {
+      background-color: #000;
+      color: #fff;
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+
+    .cta-secondary {
+      background-color: #ddd;
+      color: #000;
+
+      &:hover {
+        background-color: #bbb;
+      }
+    }
+  }
+}
