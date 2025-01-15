@@ -15,7 +15,8 @@ const teams = [
   {
     id: 1,
     name: "Manchester United",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://www.ogol.com.br/img/history/imgS620I11754T20190514184938.png",
     estadio: "Old Trafford",
     manager: "Andre Picolli",
     managerPicture: AndrePicolli,
@@ -29,7 +30,8 @@ const teams = [
   {
     id: 2,
     name: "Liverpool FC",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://backend.liverpoolfc.com/sites/default/files/styles/xl/public/2024-06/lfc-digital-crest-story-23062024.jpg?itok=S9Bq8wQe",
     estadio: "Anfield",
     manager: "Bruno Teixeira",
     managerPicture: BrunoTeixeira,
@@ -43,7 +45,8 @@ const teams = [
   {
     id: 3,
     name: "Manchester City",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://i2-prod.manchestereveningnews.co.uk/incoming/article10647838.ece/ALTERNATES/s1200c/manchester-city-new-crest.jpg",
     estadio: "Etihad Stadium",
     manager: "Danilo Hara",
     managerPicture: DaniloHara,
@@ -57,7 +60,8 @@ const teams = [
   {
     id: 4,
     name: "Chelsea FC",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://i.pinimg.com/originals/d9/38/b6/d938b6c9e78de74ecdd872e795c9ac4b.jpg",
     estadio: "Stamford Bridge",
     manager: "Eder Murilo",
     managerPicture: EderMurilo,
@@ -66,7 +70,8 @@ const teams = [
   {
     id: 5,
     name: "Arsenal FC",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://logos-world.net/wp-content/uploads/2020/05/Arsenal-Logo.png",
     estadio: "Emirates Stadium",
     manager: "Flavio Tarsis",
     managerPicture: FlavioTarsis,
@@ -80,7 +85,8 @@ const teams = [
   {
     id: 6,
     name: "Tottenham Hotspur",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://1000logos.net/wp-content/uploads/2018/06/Tottenham-Hotspur-Logo.jpg",
     estadio: "Tottenham Hotspur Stadium",
     manager: "Gabriel Sorin",
     managerPicture: GabrielSorin,
@@ -94,7 +100,8 @@ const teams = [
   {
     id: 7,
     name: "Leicester City",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://logos-world.net/wp-content/uploads/2020/06/Leicester-City-Logo-2010-present.jpg",
     estadio: "King Power Stadium",
     manager: "Gustavo Lopes",
     managerPicture: GustavoLopes,
@@ -108,7 +115,7 @@ const teams = [
   {
     id: 8,
     name: "Burnley FC",
-    badge: "/assets/images/badge.svg",
+    badge: "https://1000logos.net/wp-content/uploads/2021/02/Burnley-logo.jpg",
     estadio: "Turf Moor",
     manager: "Igor Amaral",
     managerPicture: IgorAmaral,
@@ -117,7 +124,8 @@ const teams = [
   {
     id: 9,
     name: "Everton FC",
-    badge: "/assets/images/jefferson-team-badge.svg",
+    badge:
+      "https://cdn1.everton.news/uploads/21/2023/05/GettyImages-1313303306-scaled.jpg",
     estadio: "Goodison Park",
     manager: "Jefferson Correa",
     managerPicture: JeffersonCorrea,
@@ -130,8 +138,9 @@ const teams = [
   },
   {
     id: 10,
-    name: "Wolverhampton Wanderers",
-    badge: "/assets/images/badge.svg",
+    name: "Wolverhampton",
+    badge:
+      "https://thumbs.dreamstime.com/b/wolverhampton-wanderers-clube-de-futebol-wolfs-badge-oeste-midlands-england-uk-janeiro-207033032.jpg",
     estadio: "Molineux Stadium",
     manager: "Jeffrey Radetski",
     managerPicture: JeffreyRadetski,
@@ -140,7 +149,8 @@ const teams = [
   {
     id: 11,
     name: "Southampton FC",
-    badge: "/assets/images/badge.svg",
+    badge:
+      "https://1000logos.net/wp-content/uploads/2018/07/Southampton-Logo-2010.png",
     estadio: "St. Mary's Stadium",
     manager: "Julio Cesar",
     managerPicture: JulioCesar,
@@ -154,7 +164,8 @@ const teams = [
   {
     id: 12,
     name: "Norwich City",
-    badge: "/assets/images/jefferson-team-badge.svg",
+    badge:
+      "https://cdn.myportfolio.com/13db6078686b2e3ac46460cec2fba65b/33485027-e1ac-490d-aa20-0e5a8e102b12_rw_3840.jpg?h=61fa96d80f2323107318c3d3134135d1",
     estadio: "Carrow Road",
     manager: "Júnior Jacome",
     managerPicture: JuniorJacome,

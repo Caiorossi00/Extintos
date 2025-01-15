@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import teams from "../../assets/data/teams";
+import "../../assets/scss/teamDetails.scss";
 
 const TeamDetail = () => {
   const { id } = useParams();
@@ -15,15 +16,15 @@ const TeamDetail = () => {
   }, [id]);
 
   if (!team) {
-    return <div>Loading...</div>;
+    return <div className="loading">Loading...</div>;
   }
 
   return (
-    <div>
-      <h2>Details for Team {team.id}</h2>
+    <div className="team-detail">
+      <h2>Detalhes do time {team.id}</h2>
       <img src={team.badge} alt={`Badge of ${team.name}`} />
       <h3>Manager: {team.manager}</h3>
-      <p>Players: {team.players}</p>
+      <p>Players: {team.players.join(", ")}</p>
     </div>
   );
 };
