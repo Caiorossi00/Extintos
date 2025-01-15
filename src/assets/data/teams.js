@@ -5,7 +5,7 @@ import EderMurilo from "../images/EderMurilo.jpeg";
 import FlavioTarsis from "../images/FlavioTarsis.jpeg";
 import GabrielSorin from "../images/GabrielSorin.jpeg";
 import GustavoLopes from "../images/GustavoLopes.jpeg";
-import IgorAmaral from "../images/IgorAmaral.jpeg";
+// import IgorAmaral from "../images/IgorAmaral.jpeg";
 import JeffersonCorrea from "../images/JeffersonCorrea.jpeg";
 import JeffreyRadetski from "../images/JeffreyRadetski.jpeg";
 import JulioCesar from "../images/JulioCesar.jpeg";
@@ -112,15 +112,15 @@ const teams = [
       "Kasper Schmeichel",
     ],
   },
-  {
-    id: 8,
-    name: "Burnley FC",
-    badge: "https://1000logos.net/wp-content/uploads/2021/02/Burnley-logo.jpg",
-    estadio: "Turf Moor",
-    manager: "Igor Amaral",
-    managerPicture: IgorAmaral,
-    players: ["Wout Weghorst", "Maxwel Cornet", "Ashley Barnes", "Jack Cork"],
-  },
+  // {
+  //   id: 8,
+  //   name: "Burnley FC",
+  //   badge: "https://1000logos.net/wp-content/uploads/2021/02/Burnley-logo.jpg",
+  //   estadio: "Turf Moor",
+  //   manager: "Igor Amaral",
+  //   managerPicture: IgorAmaral,
+  //   players: ["Wout Weghorst", "Maxwel Cornet", "Ashley Barnes", "Jack Cork"],
+  // },
   {
     id: 9,
     name: "Everton FC",
