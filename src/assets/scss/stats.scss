@@ -1,11 +1,12 @@
 #container-stats {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   overflow-y: hidden;
   justify-content: space-between;
+  background-color: #e3672b;
 
   .stats-left {
     padding-left: 7vw;
@@ -14,13 +15,14 @@
     h1 {
       font-size: 3em;
       width: 40%;
+      color: white;
     }
 
     p {
       width: 50%;
-      color: grey;
+      color: rgb(0, 0, 0);
       margin-top: 10px;
-      font-weight: lighter;
+      font-weight: 500;
     }
   }
 
