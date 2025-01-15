@@ -7,8 +7,8 @@ const ManagersRoute = () => {
   return (
     <>
       <ManagerSlider />
-      <LeagueTable />
-      <ResultsDisplay />
+      {/* <LeagueTable />
+        <ResultsDisplay /> */}
     </>
   );
 };
