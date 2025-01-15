@@ -65,7 +65,7 @@ const teams = [
     estadio: "Stamford Bridge",
     manager: "Eder Murilo",
     managerPicture: EderMurilo,
-    players: ["Kai Havertz", "Mason Mount", "N'Golo Kante", "Thiago Silva"],
+    players: ["Kai Havertz", "Mason Mount", "N'Golo Kante", "Cole Palmer"],
   },
   {
     id: 5,
