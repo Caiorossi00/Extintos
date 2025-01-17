@@ -1,15 +1,15 @@
-import AndrePicolli from "../images/AndrePicolli.jpeg";
-import BrunoTeixeira from "../images/BrunoTeixeira.jpeg";
-import DaniloHara from "../images/DaniloHara.jpeg";
-import EderMurilo from "../images/EderMurilo.jpeg";
-import FlavioTarsis from "../images/FlavioTarsis.jpeg";
-import GabrielSorin from "../images/GabrielSorin.jpeg";
-import GustavoLopes from "../images/GustavoLopes.jpeg";
-// import IgorAmaral from "../images/IgorAmaral.jpeg";
-import JeffersonCorrea from "../images/JeffersonCorrea.jpeg";
-import JeffreyRadetski from "../images/JeffreyRadetski.jpeg";
-import JulioCesar from "../images/JulioCesar.jpeg";
-import JuniorJacome from "../images/JuniorJacome.jpeg";
+import AndrePicolli from "../images/AndrePicolli.png";
+import BrunoTeixeira from "../images/BrunoTeixeira.png";
+import DaniloHara from "../images/DaniloHara.png";
+import EderMurilo from "../images/EderMurilo.png";
+import FlavioTarsis from "../images/FlavioTarsis.png";
+import GabrielSorin from "../images/GabrielSorin.png";
+import GustavoLopes from "../images/GustavoLopes.png";
+import IgorAmaral from "../images/IgorAmaral.png";
+import JefersonCorrea from "../images/JefersonCorrea.png";
+import JeffreyRadetski from "../images/JeffreyRadetski.png";
+import JulioCesar from "../images/JulioCesar.png";
+import JuniorJacome from "../images/JuniorJacome.png";
 
 const teams = [
   {
@@ -112,23 +112,23 @@ const teams = [
       "Kasper Schmeichel",
     ],
   },
-  // {
-  //   id: 8,
-  //   name: "Burnley FC",
-  //   badge: "https://1000logos.net/wp-content/uploads/2021/02/Burnley-logo.jpg",
-  //   estadio: "Turf Moor",
-  //   manager: "Igor Amaral",
-  //   managerPicture: IgorAmaral,
-  //   players: ["Wout Weghorst", "Maxwel Cornet", "Ashley Barnes", "Jack Cork"],
-  // },
+  {
+    id: 8,
+    name: "Burnley FC",
+    badge: "https://1000logos.net/wp-content/uploads/2021/02/Burnley-logo.jpg",
+    estadio: "Turf Moor",
+    manager: "Igor Amaral",
+    managerPicture: IgorAmaral,
+    players: ["Wout Weghorst", "Maxwel Cornet", "Ashley Barnes", "Jack Cork"],
+  },
   {
     id: 9,
     name: "Everton FC",
     badge:
       "https://cdn1.everton.news/uploads/21/2023/05/GettyImages-1313303306-scaled.jpg",
     estadio: "Goodison Park",
-    manager: "Jefferson Correa",
-    managerPicture: JeffersonCorrea,
+    manager: "Jeferson Correa",
+    managerPicture: JefersonCorrea,
     players: [
       "Richarlison",
       "Dominic Calvert-Lewin",
