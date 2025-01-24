@@ -53,10 +53,10 @@ const teams = [
   },
   {
     id: 2,
-    name: "Liverpool FC",
+    name: "Futboll Club Baygon",
     badge:
       "https://backend.liverpoolfc.com/sites/default/files/styles/xl/public/2024-06/lfc-digital-crest-story-23062024.jpg?itok=S9Bq8wQe",
-    estadio: "Anfield",
+    estadio: "Arena SBP",
     manager: "Bruno Teixeira",
     managerPicture: BrunoTeixeira,
     saldo: "4",
@@ -131,10 +131,10 @@ const teams = [
   },
   {
     id: 4,
-    name: "Arena Farmaconde de SJC",
+    name: "Tropa do Bolsonaro",
     badge:
       "https://i.pinimg.com/originals/d9/38/b6/d938b6c9e78de74ecdd872e795c9ac4b.jpg",
-    estadio: "Stamford Bridge",
+    estadio: "Arena Farmaconde de SJC",
     manager: "Éder Murilo",
     managerPicture: EderMurilo,
     saldo: "3",

@@ -24,13 +24,6 @@ const ManagerArea = () => {
       team: "Sem Clube",
       price: "R$ 12M",
     },
-    {
-      id: 4,
-      name: "Jogador 4",
-      position: "Goleiro",
-      team: "Sem Clube",
-      price: "R$ 8M",
-    },
   ];
 
   const latestTransfers = [

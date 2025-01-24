@@ -10,7 +10,7 @@ const groups = [
         pontos: 11,
       },
       {
-        name: "Liverpool",
+        name: "Futboll Club Baygon",
         vitorias: 4,
         derrotas: 0,
         empates: 2,
@@ -24,7 +24,7 @@ const groups = [
         pontos: 14,
       },
       {
-        name: "Arena Farmaconde de SJC",
+        name: "Tropa do Bolsonaro",
         vitorias: 4,
         derrotas: 0,
         empates: 2,
