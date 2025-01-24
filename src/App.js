@@ -4,6 +4,7 @@ import TeamDetails from "./Routes/TeamDetails/TeamDetails";
 import ManagersRoute from "./Routes/Managers/ManagersRoute";
 import Home from "./Routes/Home/Home";
 import Navbar from "./Routes/Home/Navbar";
+import Footer from "./Routes/Home/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/managers" element={<ManagersRoute />} />
           <Route path="/team/:id" element={<TeamDetails />} />
         </Routes>
+        <Footer />
       </main>
     </Router>
   );

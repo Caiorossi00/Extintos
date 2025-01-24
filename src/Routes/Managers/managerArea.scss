@@ -1,0 +1,66 @@
+#manager-area {
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 15px 0;
+    color: #333;
+  }
+
+  #market {
+    margin-top: 20px;
+  }
+
+  #latest-transfers {
+    margin-top: 5vh;
+  }
+
+  .player-list,
+  .transfer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .player-card,
+  .transfer-card {
+    background-color: #ffffff;
+    color: black;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    strong {
+      font-size: 1.3rem;
+    }
+  }
+}
