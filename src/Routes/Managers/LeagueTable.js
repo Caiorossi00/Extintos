@@ -1,43 +1,42 @@
-import { useStandings } from "../../assets/hooks/useStandings";
+import React from "react";
+import groups from "../../assets/data/tabelaManagers";
+import "./leagueTable.scss";
 
-export default function LeagueTable() {
-  const standings = useStandings();
-
+const LeagueTable = () => {
   return (
-    <div>
-      <h2>League Table</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Pos</th>
-            <th>Team</th>
-            <th>P</th>
-            <th>W</th>
-            <th>D</th>
-            <th>L</th>
-            <th>GF</th>
-            <th>GA</th>
-            <th>GD</th>
-            <th>Pts</th>
-          </tr>
-        </thead>
-        <tbody>
-          {standings.map((team) => (
-            <tr key={team.id}>
-              <td>{team.position}</td>
-              <td>{team.name}</td>
-              <td>{team.played}</td>
-              <td>{team.won}</td>
-              <td>{team.drawn}</td>
-              <td>{team.lost}</td>
-              <td>{team.goalsFor}</td>
-              <td>{team.goalsAgainst}</td>
-              <td>{team.goalDifference}</td>
-              <td>{team.points}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div id="container-league-table">
+      <h1>Tabela</h1>
+      {groups.map((group) => (
+        <div key={group.groupId}>
+          <h2>Group {group.groupId}</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Vitórias</th>
+                <th>Derrotas</th>
+                <th>Empates</th>
+                <th>Pontos</th>
+              </tr>
+            </thead>
+            <tbody>
+              {group.teams
+                .sort((a, b) => b.pontos - a.pontos)
+                .map((team, index) => (
+                  <tr key={index}>
+                    <td>{team.name}</td>
+                    <td>{team.vitorias}</td>
+                    <td>{team.derrotas}</td>
+                    <td>{team.empates}</td>
+                    <td>{team.pontos}</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
     </div>
   );
-}
+};
+
+export default LeagueTable;

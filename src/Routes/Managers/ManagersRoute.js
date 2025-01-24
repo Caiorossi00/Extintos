@@ -1,12 +1,12 @@
 import React from "react";
-import ManagerSlider from "./ManagerSlider";
+import ManagerGrid from "./ManagerGrid";
+import LeagueTable from "./LeagueTable";
 
 const ManagersRoute = () => {
   return (
     <>
-      <ManagerSlider />
-      {/* <LeagueTable />
-        <ResultsDisplay /> */}
+      <ManagerGrid />
+      <LeagueTable />
     </>
   );
 };

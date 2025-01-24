@@ -1,0 +1,56 @@
+#container-league-table {
+  background-color: black;
+  color: #f4cf5e;
+  padding-top: 10vh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: white;
+  }
+
+  table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    max-width: 800px;
+    font-size: larger;
+
+    th,
+    td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #f4cf5e;
+      word-wrap: break-word;
+    }
+
+    th {
+      background-color: #333;
+      color: #f4cf5e;
+    }
+
+    tr:nth-child(even) {
+      background-color: #222;
+    }
+
+    tr:hover {
+      background-color: #444;
+    }
+
+    td {
+      color: #ffffff;
+    }
+
+    td:first-child {
+      width: 40%;
+    }
+  }
+}

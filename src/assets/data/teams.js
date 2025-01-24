@@ -18,7 +18,7 @@ const teams = [
     badge:
       "https://www.ogol.com.br/img/history/imgS620I11754T20190514184938.png",
     estadio: "Arena LGBT",
-    manager: "Andre Picolli",
+    manager: "André Picolli",
     managerPicture: AndrePicolli,
     saldo: "3",
     valorizacao: "2",
@@ -131,11 +131,11 @@ const teams = [
   },
   {
     id: 4,
-    name: "Chelsea FC",
+    name: "Arena Farmaconde de SJC",
     badge:
       "https://i.pinimg.com/originals/d9/38/b6/d938b6c9e78de74ecdd872e795c9ac4b.jpg",
     estadio: "Stamford Bridge",
-    manager: "Eder Murilo",
+    manager: "Éder Murilo",
     managerPicture: EderMurilo,
     saldo: "3",
     valorizacao: "2",
@@ -174,7 +174,7 @@ const teams = [
     badge:
       "https://logos-world.net/wp-content/uploads/2020/05/Arsenal-Logo.png",
     estadio: "Arena da Arrochada",
-    manager: "Flavio Tarsis",
+    manager: "Flávio Tarsis",
     managerPicture: FlavioTarsis,
     saldo: "3",
     valorizacao: "2",
@@ -408,7 +408,7 @@ const teams = [
     badge:
       "https://1000logos.net/wp-content/uploads/2018/07/Southampton-Logo-2010.png",
     estadio: "St. Mary's Stadium",
-    manager: "Julio Cesar",
+    manager: "Júlio Cesar",
     managerPicture: JulioCesar,
     saldo: "3",
     valorizacao: "2",
