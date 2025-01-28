@@ -52,8 +52,6 @@ export default function ManagerGrid() {
           </div>
         ))}
       </div>
-
-      <div id="table-managers"></div>
     </div>
   );
 }

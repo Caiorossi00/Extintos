@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: grey;
 }
 
 .text-hero {
@@ -15,14 +16,16 @@
 
   h1 {
     font-size: 3em;
-    margin-bottom: 1vh;
-    color: #222;
+    color: #ffffff;
   }
 
   p {
-    color: grey;
+    color: #dedede;
     font-weight: 400;
     width: 70%;
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 0 auto;
   }
 
   div {
@@ -33,13 +36,13 @@
 
   .hero-button {
     padding: 15px 40px;
-    font-size: 0.9em;
-    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: 500;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
 
     &.black {
       background-color: #000;
@@ -47,16 +50,17 @@
 
       &:hover {
         background-color: #333;
+        color: #f0f0f0;
       }
     }
 
     &.grey {
-      background-color: #ccc;
-      color: #ffffff;
+      background-color: #ffffff;
+      color: #1e1e1e;
 
       &:hover {
         background-color: #e0e0e0;
-        color: #1e1e1e;
+        color: #000;
       }
     }
   }
