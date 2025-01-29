@@ -14,7 +14,6 @@ const Home = () => {
       <NossosTorneios />
       <Feedback />
       <FinalCTA />
-      <Footer />
     </>
   );
 };
