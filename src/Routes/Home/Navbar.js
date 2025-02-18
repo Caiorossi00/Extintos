@@ -14,6 +14,8 @@ const Navbar = () => {
       </Link>
       <nav className="nav-links">
         <a href="/managers">Managers</a>
+        <a href="/tabela">Tabela</a>
+        <a href="/mercado">Mercado</a>
       </nav>
     </div>
   );

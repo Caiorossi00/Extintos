@@ -1,9 +1,10 @@
 #container-manager-grid {
   background-color: black;
   color: #f4cf5e;
-  min-height: 100vh;
+  min-height: 100dvh;
   font-family: "Bebas Neue";
   font-weight: 100;
+  padding-bottom: 20vh;
 }
 
 .manager-explained {
@@ -53,6 +54,107 @@
   padding: 20px;
   margin: 0 5%;
   margin-top: 8vh;
+}
+
+.manager-card {
+  background-color: rgb(18, 45, 34);
+  color: #f4cf5e;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .manager-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+
+  .manager-info {
+    padding: 10px;
+    background-color: rgb(25, 63, 45);
+    margin-top: -3px;
+
+    h3 {
+      font-size: 28px;
+    }
+
+    .team-details {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 5px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+
+    p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .manager-explained {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+  }
+
+  .manager-card {
+    .manager-image {
+      filter: grayscale(02%);
+      height: 390px;
+    }
+  }
+
+  .manager-details {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .manager-explanation {
+    width: 100%;
+    text-align: center;
+
+    #signature-manager {
+      font-size: 2em;
+      margin-left: 0;
+      transform: rotate(0deg);
+    }
+  }
+
+  #container-display-managers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
 
   .manager-card {
     background-color: rgb(18, 45, 34);
@@ -61,56 +163,49 @@
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: fit-content;
+  }
 
-    &:hover {
-      transform: scale(1.05);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    }
+  .manager-card .manager-info h3 {
+    font-size: 35px;
+  }
 
-    .manager-image {
-      width: 100%;
-      height: 300px;
-      object-fit: contain;
-      filter: grayscale(100%);
-      transition: filter 0.3s ease;
+  .manager-card .manager-info p {
+    font-size: 18px;
+  }
 
-      &:hover {
-        filter: grayscale(0%);
-      }
-    }
+  .manager-card .manager-info .team-details p {
+    margin: 0;
+    font-size: 22px;
+  }
+}
 
-    .manager-info {
-      padding: 10px;
-      background-color: rgb(25, 63, 45);
+@media (max-width: 480px) {
+  .manager-explained {
+    padding-top: 4vh;
+  }
 
-      h3 {
-        font-size: 28px;
-      }
+  .manager-details h1 {
+    font-size: 2.5em;
+  }
 
-      .team-details {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 5px;
+  .manager-details p {
+    font-size: 1.5em;
+  }
 
-        img {
-          width: 30px;
-          height: 30px;
-          object-fit: cover;
-          border-radius: 50%;
-        }
+  .manager-explanation p {
+    font-size: 1.4em;
+  }
 
-        p {
-          margin: 0;
-          font-size: 14px;
-        }
-      }
+  #signature-manager {
+    font-size: 2.5em;
+  }
 
-      p {
-        margin: 5px 0 0;
-        font-size: 14px;
-        color: #ccc;
-      }
-    }
+  .manager-info h3 {
+    font-size: 22px;
+  }
+
+  .team-details p {
+    font-size: 12px;
   }
 }

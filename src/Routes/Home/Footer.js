@@ -1,19 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../assets/scss/footer.scss";
+import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
     <footer id="container-footer">
       <div className="footer-content">
         <div className="footer-links">
-          <a href="#about">About Us</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-          <a href="#privacy">Privacy Policy</a>
+          <Link to="/managers">Managers</Link>
+          <Link to="/tabela">Tabela</Link>
+          <Link to="/mercado">Mercado</Link>
         </div>
-      </div>
-      <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Extintos. All rights reserved.</p>
+        <div className="footer-bottom">
+          <img src={logo} alt="Logo" className="footer-logo" />
+          <p>
+            © {new Date().getFullYear()} Gentilmente desenvolvido por{" "}
+            <span>
+              <a
+                href="https://instagram.com/caiorossi.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @CaioRossi.dev
+              </a>
+            </span>
+          </p>
+        </div>
       </div>
     </footer>
   );

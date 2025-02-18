@@ -1,52 +1,33 @@
 #container-footer {
-  background-color: #000000;
-  color: #fff;
-  padding: 2rem 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "bebas neue";
+  font-weight: lighter;
 
   .footer-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-
-    .footer-logo {
-      h2 {
-        font-size: 1.8rem;
-        color: #fff;
-      }
-    }
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    gap: 2em;
+    margin-bottom: 5vh;
 
     .footer-links {
       display: flex;
-      flex-wrap: wrap;
       gap: 1rem;
-      text-align: center;
-      margin: 0 auto;
-      font-size: small;
+      width: 100%;
+      justify-content: space-around;
 
       a {
-        color: #ccc;
+        color: #000000;
         text-decoration: none;
+        font-size: 1.2rem;
         transition: color 0.3s ease;
 
         &:hover {
-          color: #fff;
-        }
-      }
-    }
-
-    .footer-socials {
-      display: flex;
-      gap: 1rem;
-
-      a {
-        color: #ccc;
-        text-decoration: none;
-        transition: color 0.3s ease;
-
-        &:hover {
-          color: #fff;
+          color: #bebebe;
         }
       }
     }
@@ -54,12 +35,28 @@
 
   .footer-bottom {
     text-align: center;
-    margin-top: 2rem;
-    font-size: 0.6rem;
-    color: #ccc;
+    font-size: 0.8rem;
+    color: black;
+    font-family: "inter";
 
     p {
       margin: 0;
     }
+
+    a {
+      color: #ff8c00;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-family: "inter";
+      font-weight: 300;
+
+      &:hover {
+        color: #bebebe;
+      }
+    }
   }
+}
+
+.footer-logo {
+  width: 120px;
 }
